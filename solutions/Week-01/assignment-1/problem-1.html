@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vertical Align</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;  /* horizontal */
+            align-items: center;      /* vertical */
+            height: 100vh;            /* full screen height */
+            margin: 0;
+        }
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            background-color: rebeccapurple;
+        }
+        .content {
+            height: 500px;
+            color:aliceblue;
+        }
+        .vertical-center {
+            display: flex;
+            justify-content: center;  /* vertical */
+            align-items: center;      /* horizontal (important here) */
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="vertical-center">
+                <h1>Hello World</h1>   
+            </div>
+        </div>
+    </div>
+</body>
