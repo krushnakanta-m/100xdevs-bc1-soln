@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: ghostwhite;
+    display:grid;
+    place-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: center;
+    justify-items: stretch;
+    width: 1200px;
+}
+
+.item1 {
+    display: grid;
+    place-items: center;
+    background-color: red;
+}
+
+.item2 {
+    display: grid;
+    place-items: center;
+    background-color: blue;
+}
