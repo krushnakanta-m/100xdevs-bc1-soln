@@ -1,0 +1,28 @@
+body{
+    background-color: ghostwhite;
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    place-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: stretch;
+    justify-items: stretch;
+    width: 1200px;
+    gap: 10px;
+}
+.item1{
+    display: grid;
+    place-items: center;
+    background-color: red;
+    /* height: 100%; */
+    gap: 20px;
+}
+.item2{
+    display: grid;
+    place-items: center;
+    background-color: blue;
+    grid-template-columns: 1fr 1fr 1fr;
+}
